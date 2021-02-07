@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logan Harvey | Portfolio</title>
+        <script src="https://kit.fontawesome.com/8e11ec2e73.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <div class=background_img>
+            <header class="header">
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="#future" class="nav__link">My Future</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                        <li class="nav__item"><a href="#contact_me" class="nav__link">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </header>
+        
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    Hi, I am <strong>Logan Harvey</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Full-Stack Developer</p>
+                <img src="images/profile-picture.jpeg" alt="Picture of Logan smiling" class="intro__img">
+            </section>
+        </div>
+        <section class="my-services" id="about">
+            <h2 class="section__title section__title--services">About Me</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Education</h3>
+                    <p>I graduated from The Ohio State University in 2018 with a bachelor of arts degree in Economics. I am currently attending a bootcamp at Ohio State to become a full-stack web developer. 
+                    </p>
+                </div>
+                <div class="service">
+                    <h3>Experience</h3>
+                    <p>After graduating, I started my career in the insurance industry with New York Life. Then I transitioned into the retirement industry with Nationwide Financial in 2018. I have worked at Morgan Stanley as a retirement operations analyst since 2019. </p>
+                </div>
+                <div class="service">
+                    <h3>Why Web Development?</h3>
+                    <p>I have always had an interest in technology and I am looking for a career change. Learning how to code would add valuable skills to my Economics degree in today’s competitive labor market. I consider myself a creative person, but I also have the ability to think critically and logically. I enjoy solving problems and coming up with creative solutions. </p>
+                </div>
+            </div>
+            <a href="#work" class=btn>My Work</a>
+        </section>
+
+        <section class="about-me" id="future">
+            <h2 class="section__title sec">My Future</h2>
+            <p class="section__subtitle section__subtitle--about">Full-Stack Developer</p>
+            <div class="about-me__body">
+                <p>My goal is to have a job secured before I even finish the bootcamp. I am open to relocating to anywhere to secure the job I want. At first, I want to try full-stack web development, but I think I am more interested in object-oriented programing. I am most interested in artificial intelligence and and machine learning. Languages like Python, C++, and Swift interest me the most. </p>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Dictum fusce ut placerat orci. Arcu cursus euismod quis viverra. 
+                    rci phasellus egestas tellus rutrum tellus. Auctor eu augue ut lectus arcu bibendum at varius 
+                    vel. Congue quisque egestas diam in arcu cursus euismod quis viverra.</p> -->
+            </div>
+            <img src="images/profile-picture-2.jpeg" alt="Picture of Logan standing" class="about-me__img">
+        </section>
+
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my work</p>
+            <div class="portfolio">
+                <a href="https://loganwh454.github.io/osu-bootcamp-homework-1/" class="portfolio__item" target="_blank" >
+                    <h3>Code Refactor Assigment</h3>
+                    <img src="images/portfolio-1.jpeg" alt="Portfolio image" class="portfolio__img">
+                </a>
+
+                <a href="https://scratch.mit.edu/projects/474658326/" class="portfolio__item" target="_blank">
+                    <h3>Scratch Game</h3>
+                    <img src="images/portfolio-2.jpeg" alt="Portfolio image" class="portfolio__img">
+                </a>
+
+                <a href="#work" class="portfolio__item">
+                    <h3>Coming Soon</h3>
+                    <img src="images/portfolio-3.jpeg" alt="Portfolio image" class="portfolio__img">
+                </a>
+
+                <a href="#work" class="portfolio__item">
+                    <h3>Coming Soon</h3>
+                    <img src="images/portfolio-4.jpeg" alt="Portfolio image" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer contact_me">
+            <h2>Contact Me</h2>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/LoganWH454" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/logan-harvey-54a886114/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+            <a href="https://docs.google.com/document/d/1b993eXeHaOfYr4gk9bQJxI63cOObauN1-KjmfSfkR20/edit?usp=sharing" class="footer__link" target="_blank">Resume</a>
+            <br>
+            <a href="mailto:loganharvey454@gmail.com" class="footer__link">loganharvey454@gmail.com</a>
+        </footer>
+
+        <script src="js/index.js"></script>
+    
+    </body>
+
+</html>
