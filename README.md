@@ -21,7 +21,7 @@ One of the coolest things for me to do was create some custom variables, like `-
 ## Link to Deployed Application
 
 
-
+[Deployed Website](https://loganwh454.github.io/osu-bootcamp-homework-2/)
 
 
 ---
